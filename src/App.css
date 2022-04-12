@@ -1,0 +1,17 @@
+.users_posts {
+    display: flex;
+}
+.users_posts {
+    margin: 20px 20px;
+}
+.user  {
+    background-color: cornflowerblue;
+}
+.post {
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-left: 100px;
+}
+.comment {
+    background-color: yellow;
+}

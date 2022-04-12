@@ -1,7 +1,14 @@
-function App() {
-  return (
-    <div></div>
-  );
-}
+import './App.css';
+import { Comments, Posts, Users } from './components';
 
-export default App;
+export const App = () => {
+    return (
+        <div>
+            <div className={'users_posts'}>
+                <Users/>
+                <Posts/>
+            </div>
+            <Comments/>
+        </div>
+    );
+}
